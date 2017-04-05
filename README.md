@@ -10,12 +10,14 @@ Time spent: **4** hours spent in total
 1. (Required) Vulnerability Name or ID  Unauthenticated Stored Cross-Site Scripting
   - [√] Summary: 
     - Vulnerability types: XSS
-    - Tested in version: 4.2
-    - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.2.3
+  - [√] GIF Walkthrough: 
+  <img src='http://i.imgur.com/qTVGyjn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+  - [√] Steps to recreate: 
+  - [√] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-embed.php?rev=33359)
 1. (Required) Vulnerability Name or ID  Accessibility Mode Cross-Site Request Forgery
   - [√] Summary: 
     - Vulnerability types: CSRF
