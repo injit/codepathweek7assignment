@@ -23,10 +23,12 @@ Time spent: **4** hours spent in total
     - Vulnerability types: CSRF
     - Tested in version: 2.8-4.7
     - Fixed in version: 4.1.14
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [√] GIF Walkthrough: 
+    <img src='http://i.imgur.com/qTVGyjn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+  - [√] Steps to recreate: 
+  - [√] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-theme.php?rev=36185)
 1. (Required) Vulnerability Name or ID WP_Query SQL Injection
   - [√] Summary: 
     - Vulnerability types: SQL Injection
