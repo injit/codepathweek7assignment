@@ -21,8 +21,8 @@ Time spent: **4** hours spent in total
 1. (Required) Vulnerability Name or ID  Accessibility Mode Cross-Site Request Forgery
   - [√] Summary: 
     - Vulnerability types: CSRF
-    - Tested in version: 2.8-4.7
-    - Fixed in version: 4.1.14
+    - Tested in version: 3.7-4.4
+    - Fixed in version: 4.4.1
   - [√] GIF Walkthrough: 
     <img src='http://i.imgur.com/qTVGyjn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
