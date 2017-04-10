@@ -20,7 +20,7 @@ Time spent: **4** hours spent in total
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-embed.php?rev=33359)
 1. (Required) Vulnerability Name or ID : Authenticated Shortcode Tags Cross-Site Scripting
   - [√] Summary: 
-    - Vulnerability types: CSRF
+    - Vulnerability types: XSS
     - Tested in version: <= 4.3
     - Fixed in version: 4.2.5
   - [√] GIF Walkthrough: 
@@ -42,6 +42,8 @@ Time spent: **4** hours spent in total
        got to the media and click on the image and click on View attachment page a pop up message appears, thats the bug in this version. 
   - [√] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0#diff-fa01529cde3dfadd2ac964f2d56e0390)
+    
+    
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
