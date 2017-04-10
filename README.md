@@ -29,17 +29,18 @@ Time spent: **4** hours spent in total
   - [√] Steps to recreate: 
   - [√] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-theme.php?rev=36185)
-1. (Required) Vulnerability Name or ID WP_Query SQL Injection
+1. (Required) Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting via Image Filename
   - [√] Summary: 
-    - Vulnerability types: SQL Injection
-    - Tested in version: 3.5-4.7.1
-    - Fixed in version: 4.1.15
+    - Vulnerability types: XSS
+    - Tested in version: 2.5 - 4.6
+    - Fixed in version: 4.2.10
   - [√] GIF Walkthrough: 
     <img src='http://i.imgur.com/9sUbZet.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [√] Steps to recreate: Name the image file as cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)> and upload it. After we 
+       got to the media and click on the image and click on View attachment page a pop up message appears, thats the bug in this version. 
+  - [√] Affected source code:
+    - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0#diff-fa01529cde3dfadd2ac964f2d56e0390)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
