@@ -34,7 +34,9 @@ Time spent: **4** hours spent in total
     - Vulnerability types: SQL Injection
     - Tested in version: 3.5-4.7.1
     - Fixed in version: 4.1.15
-  - [ ] GIF Walkthrough: 
+  - [√] GIF Walkthrough: 
+    <img src='http://i.imgur.com/9sUbZet.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
