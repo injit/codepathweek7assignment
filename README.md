@@ -18,17 +18,18 @@ Time spent: **4** hours spent in total
   - [√] Steps to recreate: 
   - [√] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-embed.php?rev=33359)
-1. (Required) Vulnerability Name or ID  Accessibility Mode Cross-Site Request Forgery
+1. (Required) Vulnerability Name or ID : Authenticated Shortcode Tags Cross-Site Scripting
   - [√] Summary: 
     - Vulnerability types: CSRF
-    - Tested in version: 3.7-4.4
-    - Fixed in version: 4.4.1
+    - Tested in version: <= 4.3
+    - Fixed in version: 4.2.5
   - [√] GIF Walkthrough: 
-    <img src='http://i.imgur.com/qTVGyjn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+    <img src='http://i.imgur.com/gdfhUjK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
   - [√] Steps to recreate: 
   - [√] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-theme.php?rev=36185)
+    - [Link 1](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
+    
 1. (Required) Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting via Image Filename
   - [√] Summary: 
     - Vulnerability types: XSS
