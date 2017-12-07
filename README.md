@@ -36,7 +36,7 @@ Time spent: **4** hours spent in total
     - Tested in version: 2.5 - 4.6
     - Fixed in version: 4.2.10
   - [√] GIF Walkthrough: 
-    <img src='http://i.imgur.com/9sUbZet.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+    <!--<img src='http://i.imgur.com/9sUbZet.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />-->
 
   - [√] Steps to recreate: Name the image file as cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)> and upload it. After we 
        got to the media and click on the image and click on View attachment page a pop up message appears, thats the bug in this version. 
